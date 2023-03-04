@@ -4,4 +4,5 @@ resource "aws_instance" "my-ec2"{
     tags={
     Name="Omar_Instance"
     }
+    
 }

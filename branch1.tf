@@ -1,3 +1,10 @@
+terraform {
+    backend "s3" {
+    bucket = "omar99bucket"
+    key    = "omar"
+    region = "us-east-1"
+  }
+}
 resource  "aws_eip" "my-eip"{
     vpc = true
 }
